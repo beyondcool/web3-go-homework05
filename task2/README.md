@@ -29,5 +29,22 @@
 export SEPOLIA_RPC_URL=https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID
 export SEPOLIA_PRIVATE_KEY_OWNER=0xYOUR_PRIVATE_KEY
 export SEPOLIA_CONTRACT_ADDRESS=0x
+
 ```
 
+### 运行代码
+
+```shell
+task2 (main)$ 
+task2 (main)$ go run main.go 
+RPC_URL: https://sepolia.infura.io/v3/xxxxxxxxx
+PRIVATE_KEY_OWNER: xxxxx
+CONTRACT_ADDRESS: 0x5D6344f67Ae6d28890fC3BBFD9b8F9e6FdFB2Da2
+Current counter value: 10
+num IncBy 5
+Transaction hash: 0xdf3da80f5351d391c0cb7df7f1627ea0a590b2addb9d11555a4cab4eb67df3e6
+Transaction mined in block: 11136293
+Current counter value: 15
+task2 (main)$ 
+
+```
